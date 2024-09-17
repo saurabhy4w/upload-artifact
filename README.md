@@ -181,7 +181,7 @@ would be flattened and uploaded as =>
     ∟ some/directory/foo1.txt
     ∟ some/directory/foo2.txt
     ∟ other/directory/foo1.txt
-```
+``` 
 
 If multiple paths are provided as input, the least common ancestor of all the search paths will be used as the root directory of the artifact. Exclude paths do not affect the directory structure.
 
