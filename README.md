@@ -139,12 +139,12 @@ steps:
 
 ### Upload an Entire Directory
 
-```yaml
-- uses: actions/upload-artifact@v4
+  yaml
+ uses: actions/upload-artifact@v4
   with:
     name: my-artifact
     path: path/to/artifact/ # or path/to/artifact
-```
+
 
 ### Upload using a Wildcard Pattern
 
